@@ -42,7 +42,7 @@ Il reste qu'à install le fichier apk dans un téléphone android.
 
 - démarrer server python heberger local pour le test
 ```
-python3 http.server <port>
+python3 -m http.server <port>
 ```
 
 
@@ -50,10 +50,9 @@ python3 http.server <port>
 # Les commands 
 Utilisation de command pour manipuler le téléphone android depuis le terminal metasploit.
 
+
 - Recuperer tous les sms
 ```
-
-
 dump_sms 
 ```
 
@@ -95,5 +94,10 @@ ls
 ```
 cd /storage/emulated/0 ou cd /sdcard
 ```
+
+
+## Ressource
+plus d'infos concernant l'installation de metasploit android:
+https://www.dropbox.com/s/axudgf8w8vvjjbx/OMG%20Cable%20Android%20APK%20-%20Linode.pdf?dl=0
 
 
